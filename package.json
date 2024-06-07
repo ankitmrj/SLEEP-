@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "scripts": {
    
-   "start": "node index.js",
-
+   
+"start": "react-scripts start",
+  "build": "react-scripts build",
     "server": "cd backend && yarn start",
     "frontend": "cd frontend && yarn start",
     "dev": "concurrently \"yarn server\" \"yarn frontend\""
