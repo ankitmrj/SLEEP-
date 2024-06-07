@@ -2,6 +2,9 @@
   "name": "sleep",
   "version": "1.0.0",
   "scripts": {
+   
+   "start": "node index.js",
+
     "server": "cd backend && yarn start",
     "frontend": "cd frontend && yarn start",
     "dev": "concurrently \"yarn server\" \"yarn frontend\""
